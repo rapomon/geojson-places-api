@@ -58,7 +58,7 @@
     "fastify": "^4.0.0",
     "fastify-cli": "^5.6.0",
     "fastify-plugin": "^4.0.0",
-    "geojson-places": "^1.0.4"
+    "geojson-places": "^1.0.5"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.19.1",
