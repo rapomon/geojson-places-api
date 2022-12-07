@@ -30,7 +30,7 @@ test("state/:code (locale query parameter)", async (t) => {
   t.equal(res.statusCode, 200);
   const payload = JSON.parse(res.payload);
   t.type(payload, "object");
-  t.has(payload.state_name, "Provincia de Valladolid");
+  t.has(payload.state_name, "Valladolid");
 });
 
 test("state/:code (accept-language header)", async (t) => {
@@ -44,7 +44,7 @@ test("state/:code (accept-language header)", async (t) => {
   t.equal(res.statusCode, 200);
   const payload = JSON.parse(res.payload);
   t.type(payload, "object");
-  t.has(payload.state_name, "Valladolid Province");
+  t.has(payload.state_name, "Valladolid");
 });
 
 test("state/:code (not found)", async (t) => {

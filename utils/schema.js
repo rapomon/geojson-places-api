@@ -320,6 +320,18 @@ const geojson = {
           }
         }
       }
+    },
+    properties: {
+      description: "Place basic data"
+    },
+    geometry: {
+      type: "object",
+      properties: {
+        type: {
+          type: "string"
+        },
+        coordinates: {}
+      }
     }
   }
 };
